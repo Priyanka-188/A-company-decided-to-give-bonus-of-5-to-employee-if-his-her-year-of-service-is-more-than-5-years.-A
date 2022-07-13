@@ -1,0 +1,8 @@
+salary = float(input("Enter your Salary : "))
+year_of_service = int(input("Enter your year of service : "))
+
+if year_of_service > 5:
+    bonus =( 5/100)*salary
+    print("Your net bonus amount is : ",bonus)
+else : 
+    print("No Bonus ! As your year of service is less than 5 years")
